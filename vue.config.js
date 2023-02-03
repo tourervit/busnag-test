@@ -11,7 +11,12 @@ module.exports = {
         ? new BugsnagBuildReporterPlugin(
             {
               apiKey: "ceb06d2f1086242c28693908fe8f0241",
-              appVersion: new Date().toISOString(),
+              appVersion: 1.0.0,
+              sourceControl: {
+                provider: 'github',
+                repository: 'git@github.com:tourervit/busnag-test.git',
+                
+              }
             },
             {
               /* opts */
