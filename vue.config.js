@@ -11,7 +11,7 @@ module.exports = {
         ? new BugsnagBuildReporterPlugin(
             {
               apiKey: "ceb06d2f1086242c28693908fe8f0241",
-              appVersion: "3.0.2",
+              appVersion: "4.0.0",
               releaseStage: 'production'
             },
             {
