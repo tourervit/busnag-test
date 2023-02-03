@@ -1,13 +1,13 @@
 {
   "name": "vue-test-basic",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/tourervit/busnag-test.git"
   },
   "scripts": {
-    "serve": "vue-cli-service serve --NODE_ENV=production",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
