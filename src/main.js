@@ -5,7 +5,9 @@ import store from "./store";
 import Bugsnag from "@bugsnag/js";
 import BugsnagPluginVue from "@bugsnag/plugin-vue";
 
+
 Bugsnag.start({
+  appVersion: "3.0.0",
   apiKey: "ceb06d2f1086242c28693908fe8f0241",
   plugins: [new BugsnagPluginVue()],
 });
@@ -13,5 +15,5 @@ const bugsnagVue = Bugsnag.getPlugin("vue");
 
 createApp(App).use(store).use(router).use(bugsnagVue).mount("#app");
 
-Bugsnag.notify(new Error("error introduced in 2.0.1"));
+Bugsnag.notify(new Error("error introduced in 3.0.0"));
 console.log(process.env.NODE_ENV)
