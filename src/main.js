@@ -13,4 +13,4 @@ const bugsnagVue = Bugsnag.getPlugin("vue");
 
 createApp(App).use(store).use(router).use(bugsnagVue).mount("#app");
 
-Bugsnag.notify(new Error("Testttttt error"));
+Bugsnag.notify(new Error("Testttttsdfst error"));

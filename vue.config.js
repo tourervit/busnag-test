@@ -1,5 +1,5 @@
 const { BugsnagBuildReporterPlugin } = require("webpack-bugsnag-plugins");
-const isDistEnv = true;
+const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
   transpileDependencies: true,
@@ -7,7 +7,7 @@ module.exports = {
     plugins: [].concat(
       // It's a good idea to only run this plugin when you're building a bundle
       // that will be released, rather than for every development build
-      isDistEnv
+      isProd
         ? new BugsnagBuildReporterPlugin(
             {
               apiKey: "ceb06d2f1086242c28693908fe8f0241",
