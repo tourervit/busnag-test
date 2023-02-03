@@ -10,9 +10,8 @@ module.exports = {
       isProd
         ? new BugsnagBuildReporterPlugin(
             {
-              autoAssignRelease:true,
               apiKey: "ceb06d2f1086242c28693908fe8f0241",
-              appVersion: "2.0.0",
+              appVersion: "2.0.1",
               releaseStage: 'production'
             },
             {
