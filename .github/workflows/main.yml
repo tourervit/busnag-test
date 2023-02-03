@@ -4,7 +4,7 @@
   uses: codacy/git-version@2.4.0
   with:
     # The name of the release branch
-    release-branch: # default is master
+    release-branch: # default is main
     # The name of the dev branch
     dev-branch: # default is dev
     # The prefix to use in the version
