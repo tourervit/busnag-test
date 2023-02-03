@@ -12,8 +12,8 @@ module.exports = {
             {
               autoAssignRelease:true,
               apiKey: "ceb06d2f1086242c28693908fe8f0241",
-              appVersion: "1.0.4",
-              releaseStage: 'development'
+              appVersion: "2.0.0",
+              releaseStage: 'production'
             },
             {
               /* opts */
