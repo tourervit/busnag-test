@@ -13,4 +13,4 @@ const bugsnagVue = Bugsnag.getPlugin("vue");
 
 createApp(App).use(store).use(router).use(bugsnagVue).mount("#app");
 
-Bugsnag.notify(new Error("error new"));
+Bugsnag.notify(new Error("error 1.0.2"));
