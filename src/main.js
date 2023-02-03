@@ -16,5 +16,5 @@ const bugsnagVue = Bugsnag.getPlugin("vue");
 
 createApp(App).use(store).use(router).use(bugsnagVue).mount("#app");
 
-Bugsnag.notify(new Error("error introduced in 4.0.0"));
+Bugsnag.notify(new Error("error introduced issssn 4.0.0"));
 console.log(process.env.NODE_ENV)
