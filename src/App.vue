@@ -14,6 +14,9 @@ export default {
   components: {
     AppHeader,
   },
+  mounted() {
+    console.log('task-2')
+  }
 };
 </script>
 

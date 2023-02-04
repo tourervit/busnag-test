@@ -18,3 +18,4 @@ createApp(App).use(store).use(router).use(bugsnagVue).mount("#app");
 
 Bugsnag.notify(new Error("error introduced in 4.0.0"));
 console.log(process.env.NODE_ENV)
+console.log('task-1')
